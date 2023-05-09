@@ -8,7 +8,7 @@ const CartItem = ({id, img, title, price, amount}) => {
     console.log(decrease);
   }
     const dispatch = useDispatch();
-  return ( <article className='cart-items'>
+  return ( <article className='cart-item'>
 <img src={img} alt={title} />
 <div>
     <h4>{title}</h4>
